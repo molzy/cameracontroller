@@ -3,6 +3,8 @@ This software is a Visca Over IP Camera Controller, built on Python.  The softwa
 
 The original version by [ubiav](https://github.com/ubiav) has been modified to allow for setting on-camera presets and adjusting the OSD setting, for the purpose of commissioning Sony VISCA cameras when they are to be used with a controller that recalls the presets stored in the camera. Only six are exposed in the current button layout of this software, however there are 16 available on the camera in total. The software could easily be extended to handle this if necessary.
 
+This functionality is also useful for setting the inbuilt startup preset (Preset 1) that the camera navigates to when it powers on.
+
 ![An example rendering of the Visca Over IP Camera Controller Software](images/screenshot1.png "Camera Controller")
 
 ## Visca Over IP
