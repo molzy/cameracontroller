@@ -1,6 +1,8 @@
 # Camera Controller for Visca Over IP Cameras
 This software is a Visca Over IP Camera Controller, built on Python.  The software controls all PTZ functions and allows for presets to quickly move a camera to a predetermined position.  Additionally, the software allows for a USB joystick to be used to control the camera, allowing for an alternative to expensive joystick controller products.
 
+The original version by [ubiav](https://github.com/ubiav) has been modified to allow for setting on-camera presets and adjusting the OSD setting, for the purpose of commissioning Sony VISCA cameras when they are to be used with a controller that recalls the presets stored in the camera. Only six are exposed in the current button layout of this software, however there are 16 available on the camera in total. The software could easily be extended to handle this if necessary.
+
 ![An example rendering of the Visca Over IP Camera Controller Software](images/screenshot1.png "Camera Controller")
 
 ## Visca Over IP

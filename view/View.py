@@ -81,9 +81,13 @@ class View(QMainWindow) :
             self.setStyleSheet(mainStyleSheet)
 
         mainTitle = QLabel(self)
-        mainTitle.setText("<font style='color: white; font-size: 16pt;'><i><b>Tomball Stake Camera Control System</b></i></font>")
-        mainTitle.move(345, 430)
+        mainTitle.setText("<font style='color: white; font-size: 16pt;'><b>Tomball Stake Camera Control System</b></font>")
+        mainTitle.move(345, 520)
         mainTitle.resize(450,30)
+        subTitle = QLabel(self)
+        subTitle.setText("<font style='color: white; font-size: 12pt;'><b>Modified by molzy (Simon Mollema)</b></font>")
+        subTitle.move(345, 550)
+        subTitle.resize(450,30)
     
     def initCameraButtons(self) :
 
